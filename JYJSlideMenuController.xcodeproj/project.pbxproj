@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E24A79901EF10C430041ACE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A798F1EF10C430041ACE8 /* main.m */; };
+		E24A79931EF10C430041ACE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A79921EF10C430041ACE8 /* AppDelegate.m */; };
+		E24A79961EF10C430041ACE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A79951EF10C430041ACE8 /* ViewController.m */; };
+		E24A79991EF10C430041ACE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24A79971EF10C430041ACE8 /* Main.storyboard */; };
+		E24A799B1EF10C430041ACE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24A799A1EF10C430041ACE8 /* Assets.xcassets */; };
+		E24A799E1EF10C430041ACE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24A799C1EF10C430041ACE8 /* LaunchScreen.storyboard */; };
+		E24A79AA1EF10CB90041ACE8 /* JYJOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A79A81EF10CB90041ACE8 /* JYJOneViewController.m */; };
+		E24A79AD1EF115B60041ACE8 /* JYJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A79AC1EF115B60041ACE8 /* JYJNavigationController.m */; };
+		E24A79B11EF119720041ACE8 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A79B01EF119720041ACE8 /* UIImage+Extension.m */; };
+		E2A29E431EF2551C00CAAC81 /* JYJBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E421EF2551C00CAAC81 /* JYJBaseNavigationController.m */; };
+		E2A29E531EF3992200CAAC81 /* JYJMyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E501EF3992200CAAC81 /* JYJMyWalletViewController.m */; };
+		E2A29E541EF3992200CAAC81 /* JYJPushBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E521EF3992200CAAC81 /* JYJPushBaseViewController.m */; };
+		E2A29E571EF3996B00CAAC81 /* JYJMyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E561EF3996B00CAAC81 /* JYJMyCardViewController.m */; };
+		E2A29E5A1EF3998200CAAC81 /* JYJMyTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E591EF3998200CAAC81 /* JYJMyTripViewController.m */; };
+		E2A29E5D1EF399B900CAAC81 /* JYJMyFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E5C1EF399B900CAAC81 /* JYJMyFriendViewController.m */; };
+		E2A29E601EF399E800CAAC81 /* JYJMyStickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E5F1EF399E800CAAC81 /* JYJMyStickerViewController.m */; };
+		E2A29E641EF39A2100CAAC81 /* JYJSliderMenuTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E631EF39A2100CAAC81 /* JYJSliderMenuTool.m */; };
+		E2A29E671EF39EE600CAAC81 /* JYJAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E661EF39EE600CAAC81 /* JYJAnimateViewController.m */; };
+		E2A29E6E1EF3A3A200CAAC81 /* JYJPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E6D1EF3A3A200CAAC81 /* JYJPersonViewController.m */; };
+		E2A29E711EF3A3DC00CAAC81 /* JYJCommenItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E701EF3A3DC00CAAC81 /* JYJCommenItem.m */; };
+		E2A29E741EF3A40700CAAC81 /* JYJProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E731EF3A40700CAAC81 /* JYJProfileCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E24A798B1EF10C430041ACE8 /* JYJSlideMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYJSlideMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24A798F1EF10C430041ACE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E24A79911EF10C430041ACE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E24A79921EF10C430041ACE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E24A79941EF10C430041ACE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E24A79951EF10C430041ACE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E24A79981EF10C430041ACE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E24A799A1EF10C430041ACE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E24A799D1EF10C430041ACE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E24A799F1EF10C430041ACE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24A79A71EF10CB90041ACE8 /* JYJOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJOneViewController.h; sourceTree = "<group>"; };
+		E24A79A81EF10CB90041ACE8 /* JYJOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJOneViewController.m; sourceTree = "<group>"; };
+		E24A79AB1EF115B60041ACE8 /* JYJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJNavigationController.h; sourceTree = "<group>"; };
+		E24A79AC1EF115B60041ACE8 /* JYJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJNavigationController.m; sourceTree = "<group>"; };
+		E24A79AF1EF119720041ACE8 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		E24A79B01EF119720041ACE8 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		E2A29E411EF2551C00CAAC81 /* JYJBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJBaseNavigationController.h; sourceTree = "<group>"; };
+		E2A29E421EF2551C00CAAC81 /* JYJBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJBaseNavigationController.m; sourceTree = "<group>"; };
+		E2A29E4F1EF3992200CAAC81 /* JYJMyWalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJMyWalletViewController.h; sourceTree = "<group>"; };
+		E2A29E501EF3992200CAAC81 /* JYJMyWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJMyWalletViewController.m; sourceTree = "<group>"; };
+		E2A29E511EF3992200CAAC81 /* JYJPushBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJPushBaseViewController.h; sourceTree = "<group>"; };
+		E2A29E521EF3992200CAAC81 /* JYJPushBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJPushBaseViewController.m; sourceTree = "<group>"; };
+		E2A29E551EF3996A00CAAC81 /* JYJMyCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJMyCardViewController.h; sourceTree = "<group>"; };
+		E2A29E561EF3996B00CAAC81 /* JYJMyCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJMyCardViewController.m; sourceTree = "<group>"; };
+		E2A29E581EF3998200CAAC81 /* JYJMyTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJMyTripViewController.h; sourceTree = "<group>"; };
+		E2A29E591EF3998200CAAC81 /* JYJMyTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJMyTripViewController.m; sourceTree = "<group>"; };
+		E2A29E5B1EF399B900CAAC81 /* JYJMyFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJMyFriendViewController.h; sourceTree = "<group>"; };
+		E2A29E5C1EF399B900CAAC81 /* JYJMyFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJMyFriendViewController.m; sourceTree = "<group>"; };
+		E2A29E5E1EF399E800CAAC81 /* JYJMyStickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJMyStickerViewController.h; sourceTree = "<group>"; };
+		E2A29E5F1EF399E800CAAC81 /* JYJMyStickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJMyStickerViewController.m; sourceTree = "<group>"; };
+		E2A29E621EF39A2100CAAC81 /* JYJSliderMenuTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJSliderMenuTool.h; sourceTree = "<group>"; };
+		E2A29E631EF39A2100CAAC81 /* JYJSliderMenuTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJSliderMenuTool.m; sourceTree = "<group>"; };
+		E2A29E651EF39EE600CAAC81 /* JYJAnimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJAnimateViewController.h; sourceTree = "<group>"; };
+		E2A29E661EF39EE600CAAC81 /* JYJAnimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJAnimateViewController.m; sourceTree = "<group>"; };
+		E2A29E6C1EF3A3A200CAAC81 /* JYJPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJPersonViewController.h; sourceTree = "<group>"; };
+		E2A29E6D1EF3A3A200CAAC81 /* JYJPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJPersonViewController.m; sourceTree = "<group>"; };
+		E2A29E6F1EF3A3DC00CAAC81 /* JYJCommenItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJCommenItem.h; sourceTree = "<group>"; };
+		E2A29E701EF3A3DC00CAAC81 /* JYJCommenItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJCommenItem.m; sourceTree = "<group>"; };
+		E2A29E721EF3A40700CAAC81 /* JYJProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJProfileCell.h; sourceTree = "<group>"; };
+		E2A29E731EF3A40700CAAC81 /* JYJProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJProfileCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E24A79881EF10C430041ACE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E24A79821EF10C430041ACE8 = {
+			isa = PBXGroup;
+			children = (
+				E24A798D1EF10C430041ACE8 /* JYJSlideMenuController */,
+				E24A798C1EF10C430041ACE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E24A798C1EF10C430041ACE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E24A798B1EF10C430041ACE8 /* JYJSlideMenuController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E24A798D1EF10C430041ACE8 /* JYJSlideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				E2A29E681EF3A36A00CAAC81 /* Profile(个人中心) */,
+				E2A29E611EF39A2100CAAC81 /* Tool */,
+				E2A29E4E1EF398EC00CAAC81 /* ProfileSubControllers(个人中心子页面) */,
+				E24A79AE1EF119640041ACE8 /* Category */,
+				E24A79911EF10C430041ACE8 /* AppDelegate.h */,
+				E24A79921EF10C430041ACE8 /* AppDelegate.m */,
+				E24A79941EF10C430041ACE8 /* ViewController.h */,
+				E24A79951EF10C430041ACE8 /* ViewController.m */,
+				E2A29E411EF2551C00CAAC81 /* JYJBaseNavigationController.h */,
+				E2A29E421EF2551C00CAAC81 /* JYJBaseNavigationController.m */,
+				E24A79AB1EF115B60041ACE8 /* JYJNavigationController.h */,
+				E24A79AC1EF115B60041ACE8 /* JYJNavigationController.m */,
+				E2A29E651EF39EE600CAAC81 /* JYJAnimateViewController.h */,
+				E2A29E661EF39EE600CAAC81 /* JYJAnimateViewController.m */,
+				E24A79A71EF10CB90041ACE8 /* JYJOneViewController.h */,
+				E24A79A81EF10CB90041ACE8 /* JYJOneViewController.m */,
+				E24A79971EF10C430041ACE8 /* Main.storyboard */,
+				E24A799C1EF10C430041ACE8 /* LaunchScreen.storyboard */,
+				E24A799A1EF10C430041ACE8 /* Assets.xcassets */,
+				E24A799F1EF10C430041ACE8 /* Info.plist */,
+				E24A798E1EF10C430041ACE8 /* Supporting Files */,
+			);
+			path = JYJSlideMenuController;
+			sourceTree = "<group>";
+		};
+		E24A798E1EF10C430041ACE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E24A798F1EF10C430041ACE8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E24A79AE1EF119640041ACE8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E24A79AF1EF119720041ACE8 /* UIImage+Extension.h */,
+				E24A79B01EF119720041ACE8 /* UIImage+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E2A29E4E1EF398EC00CAAC81 /* ProfileSubControllers(个人中心子页面) */ = {
+			isa = PBXGroup;
+			children = (
+				E2A29E4F1EF3992200CAAC81 /* JYJMyWalletViewController.h */,
+				E2A29E501EF3992200CAAC81 /* JYJMyWalletViewController.m */,
+				E2A29E551EF3996A00CAAC81 /* JYJMyCardViewController.h */,
+				E2A29E561EF3996B00CAAC81 /* JYJMyCardViewController.m */,
+				E2A29E581EF3998200CAAC81 /* JYJMyTripViewController.h */,
+				E2A29E591EF3998200CAAC81 /* JYJMyTripViewController.m */,
+				E2A29E5B1EF399B900CAAC81 /* JYJMyFriendViewController.h */,
+				E2A29E5C1EF399B900CAAC81 /* JYJMyFriendViewController.m */,
+				E2A29E5E1EF399E800CAAC81 /* JYJMyStickerViewController.h */,
+				E2A29E5F1EF399E800CAAC81 /* JYJMyStickerViewController.m */,
+				E2A29E511EF3992200CAAC81 /* JYJPushBaseViewController.h */,
+				E2A29E521EF3992200CAAC81 /* JYJPushBaseViewController.m */,
+			);
+			name = "ProfileSubControllers(个人中心子页面)";
+			path = ProfileSubControllers;
+			sourceTree = "<group>";
+		};
+		E2A29E611EF39A2100CAAC81 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E2A29E621EF39A2100CAAC81 /* JYJSliderMenuTool.h */,
+				E2A29E631EF39A2100CAAC81 /* JYJSliderMenuTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E2A29E681EF3A36A00CAAC81 /* Profile(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				E2A29E691EF3A36A00CAAC81 /* Controller */,
+				E2A29E6A1EF3A36A00CAAC81 /* Model */,
+				E2A29E6B1EF3A36A00CAAC81 /* View */,
+			);
+			name = "Profile(个人中心)";
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E2A29E691EF3A36A00CAAC81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2A29E6C1EF3A3A200CAAC81 /* JYJPersonViewController.h */,
+				E2A29E6D1EF3A3A200CAAC81 /* JYJPersonViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2A29E6A1EF3A36A00CAAC81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2A29E6F1EF3A3DC00CAAC81 /* JYJCommenItem.h */,
+				E2A29E701EF3A3DC00CAAC81 /* JYJCommenItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2A29E6B1EF3A36A00CAAC81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2A29E721EF3A40700CAAC81 /* JYJProfileCell.h */,
+				E2A29E731EF3A40700CAAC81 /* JYJProfileCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E24A798A1EF10C430041ACE8 /* JYJSlideMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24A79A21EF10C430041ACE8 /* Build configuration list for PBXNativeTarget "JYJSlideMenuController" */;
+			buildPhases = (
+				E24A79871EF10C430041ACE8 /* Sources */,
+				E24A79881EF10C430041ACE8 /* Frameworks */,
+				E24A79891EF10C430041ACE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYJSlideMenuController;
+			productName = JYJSlideMenuController;
+			productReference = E24A798B1EF10C430041ACE8 /* JYJSlideMenuController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E24A79831EF10C430041ACE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = baobeikeji;
+				TargetAttributes = {
+					E24A798A1EF10C430041ACE8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6A7Y46D6BF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E24A79861EF10C430041ACE8 /* Build configuration list for PBXProject "JYJSlideMenuController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E24A79821EF10C430041ACE8;
+			productRefGroup = E24A798C1EF10C430041ACE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E24A798A1EF10C430041ACE8 /* JYJSlideMenuController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E24A79891EF10C430041ACE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24A799E1EF10C430041ACE8 /* LaunchScreen.storyboard in Resources */,
+				E24A799B1EF10C430041ACE8 /* Assets.xcassets in Resources */,
+				E24A79991EF10C430041ACE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E24A79871EF10C430041ACE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A29E671EF39EE600CAAC81 /* JYJAnimateViewController.m in Sources */,
+				E2A29E5D1EF399B900CAAC81 /* JYJMyFriendViewController.m in Sources */,
+				E2A29E641EF39A2100CAAC81 /* JYJSliderMenuTool.m in Sources */,
+				E2A29E571EF3996B00CAAC81 /* JYJMyCardViewController.m in Sources */,
+				E24A79961EF10C430041ACE8 /* ViewController.m in Sources */,
+				E2A29E541EF3992200CAAC81 /* JYJPushBaseViewController.m in Sources */,
+				E2A29E711EF3A3DC00CAAC81 /* JYJCommenItem.m in Sources */,
+				E24A79B11EF119720041ACE8 /* UIImage+Extension.m in Sources */,
+				E2A29E431EF2551C00CAAC81 /* JYJBaseNavigationController.m in Sources */,
+				E24A79AD1EF115B60041ACE8 /* JYJNavigationController.m in Sources */,
+				E2A29E531EF3992200CAAC81 /* JYJMyWalletViewController.m in Sources */,
+				E2A29E601EF399E800CAAC81 /* JYJMyStickerViewController.m in Sources */,
+				E24A79AA1EF10CB90041ACE8 /* JYJOneViewController.m in Sources */,
+				E24A79931EF10C430041ACE8 /* AppDelegate.m in Sources */,
+				E2A29E5A1EF3998200CAAC81 /* JYJMyTripViewController.m in Sources */,
+				E2A29E741EF3A40700CAAC81 /* JYJProfileCell.m in Sources */,
+				E2A29E6E1EF3A3A200CAAC81 /* JYJPersonViewController.m in Sources */,
+				E24A79901EF10C430041ACE8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E24A79971EF10C430041ACE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E24A79981EF10C430041ACE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E24A799C1EF10C430041ACE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E24A799D1EF10C430041ACE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E24A79A01EF10C430041ACE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E24A79A11EF10C430041ACE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E24A79A31EF10C430041ACE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A7Y46D6BF;
+				INFOPLIST_FILE = JYJSlideMenuController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baobeikeji.JYJSlideMenuController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E24A79A41EF10C430041ACE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A7Y46D6BF;
+				INFOPLIST_FILE = JYJSlideMenuController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baobeikeji.JYJSlideMenuController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E24A79861EF10C430041ACE8 /* Build configuration list for PBXProject "JYJSlideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24A79A01EF10C430041ACE8 /* Debug */,
+				E24A79A11EF10C430041ACE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24A79A21EF10C430041ACE8 /* Build configuration list for PBXNativeTarget "JYJSlideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24A79A31EF10C430041ACE8 /* Debug */,
+				E24A79A41EF10C430041ACE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E24A79831EF10C430041ACE8 /* Project object */;
+}
