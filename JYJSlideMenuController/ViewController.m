@@ -32,14 +32,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     [self setupNav];
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     // 这个方法是为了，不让隐藏状态栏的时候出现view上移
     self.extendedLayoutIncludesOpaqueBars = YES;
     self.view.backgroundColor = [UIColor whiteColor];
-
+    
     MKMapView *mapView = [[MKMapView alloc] init];
     mapView.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64);
     mapView.userTrackingMode = MKUserTrackingModeFollow;
@@ -48,14 +48,14 @@
     
     // 屏幕边缘pan手势(优先级高于其他手势)
     UIScreenEdgePanGestureRecognizer *leftEdgeGesture = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self
-                                                      action:@selector(moveViewWithGesture:)];
+                                                                                                          action:@selector(moveViewWithGesture:)];
     leftEdgeGesture.edges = UIRectEdgeLeft;// 屏幕左侧边缘响应
     [self.view addGestureRecognizer:leftEdgeGesture];
     // 这里是地图处理方式，遵守代理协议，实现代理方法
     leftEdgeGesture.delegate = self;
     
-// 如果是scrollView的话，下面这行代码就可以了不用遵守代理协议，实现代理方法
-//    [scrollView.panGestureRecognizer requireGestureRecognizerToFail:leftEdgeGesture];
+    // 如果是scrollView的话，下面这行代码就可以了不用遵守代理协议，实现代理方法
+    //    [scrollView.panGestureRecognizer requireGestureRecognizerToFail:leftEdgeGesture];
 }
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {

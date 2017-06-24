@@ -74,9 +74,11 @@ static CGFloat const animationTime = 0.4;
     } completion:^(BOOL finished) {
         // 让状态栏出现
         self.hideStatusBar = NO;
-        [UIView animateWithDuration:animationTime animations:^{
-            [self setNeedsStatusBarAppearanceUpdate];
-        }];
+        if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0) {
+            [UIView animateWithDuration:animationTime animations:^{
+                [self setNeedsStatusBarAppearanceUpdate];
+            }];
+        }
         // 隐藏个人中心
         [JYJSliderMenuTool hide];
     }];
@@ -126,11 +128,11 @@ static CGFloat const animationTime = 0.4;
     [self addChildViewController:leftVc];
     self.leftVc = leftVc;
     
-//    UIButton *btn1 =  [[UIButton alloc] init];
-//    btn1.backgroundColor = [UIColor greenColor];
-//    [btn1 addTarget:self action:@selector(btnclick) forControlEvents:UIControlEventTouchUpInside];
-//    btn1.frame = CGRectMake(50, 100, 100, 100);
-//    [leftVc.view addSubview:btn1];
+    //    UIButton *btn1 =  [[UIButton alloc] init];
+    //    btn1.backgroundColor = [UIColor greenColor];
+    //    [btn1 addTarget:self action:@selector(btnclick) forControlEvents:UIControlEventTouchUpInside];
+    //    btn1.frame = CGRectMake(50, 100, 100, 100);
+    //    [leftVc.view addSubview:btn1];
     
 }
 
@@ -176,7 +178,7 @@ static CGFloat const animationTime = 0.4;
         self.bgView.alpha = (1 + leftVcX / self.leftVc.view.frame.size.width) * 0.5;
         // 设置左边控制器的frame
         [self.leftVc.view setFrame:CGRectMake(leftVcX, 0, self.leftVc.view.frame.size.width, self.leftVc.view.frame.size.height)];
-//        NSLog(@"%f", self.leftVc.view.frame.origin.x);
+        //        NSLog(@"%f", self.leftVc.view.frame.origin.x);
     }
     // 手势结束
     if (panGes.state == UIGestureRecognizerStateEnded) {
