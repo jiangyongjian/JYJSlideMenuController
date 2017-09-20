@@ -24,16 +24,8 @@
     return UIStatusBarStyleLightContent;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.animateViewController.hideStatusBar = NO;
-}
-
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
-    
-    self.animateViewController.hideStatusBar = YES;
-    [self.animateViewController setNeedsStatusBarAppearanceUpdate];
 }
 
 

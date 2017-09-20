@@ -13,7 +13,7 @@
 /**
  * 根据底部控制器展示
  */
-+ (void)showWithRootViewController:(UIViewController *)rootViewController;
++ (void)show;
 
 /**
  * 隐藏

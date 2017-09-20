@@ -7,7 +7,7 @@
 //
 
 #import "JYJSliderMenuTool.h"
-#import "JYJBaseNavigationController.h"
+#import "JYJNavigationController.h"
 #import "JYJAnimateViewController.h"
 
 @implementation JYJSliderMenuTool
@@ -16,15 +16,14 @@ static UIWindow *window_;
 /**
  * 根据底部控制器展示
  */
-+ (void)showWithRootViewController:(UIViewController *)rootViewController {
++ (void)show {
     window_ = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     window_.backgroundColor = [UIColor clearColor];
     window_.hidden = NO;
     
     JYJAnimateViewController *vc = [[JYJAnimateViewController alloc] init];
     vc.view.backgroundColor = [UIColor clearColor];
-    vc.rootViewController = rootViewController;
-    JYJBaseNavigationController *nav = [[JYJBaseNavigationController alloc] initWithRootViewController:vc];
+    JYJNavigationController *nav = [[JYJNavigationController alloc] initWithRootViewController:vc];
     nav.view.backgroundColor = [UIColor clearColor];
     window_.rootViewController = nav;
     [window_ addSubview:nav.view];

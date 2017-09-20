@@ -2,12 +2,12 @@
 //  JYJNavigationController.h
 //  JYJSlideMenuController
 //
-//  Created by JYJ on 2017/6/14.
+//  Created by JYJ on 2017/6/15.
 //  Copyright © 2017年 baobeikeji. All rights reserved.
 //
 
-#import "JYJBaseNavigationController.h"
+#import <UIKit/UIKit.h>
 
-@interface JYJNavigationController : JYJBaseNavigationController
+@interface JYJNavigationController : UINavigationController
 
 @end

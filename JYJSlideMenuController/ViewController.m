@@ -80,7 +80,7 @@
 
 - (void)profileCenter {
     // 展示个人中心
-    [JYJSliderMenuTool showWithRootViewController:self];
+    [JYJSliderMenuTool show];
 }
 
 - (void)setupNav {

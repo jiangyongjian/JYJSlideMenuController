@@ -14,9 +14,8 @@
 		E24A799B1EF10C430041ACE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24A799A1EF10C430041ACE8 /* Assets.xcassets */; };
 		E24A799E1EF10C430041ACE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24A799C1EF10C430041ACE8 /* LaunchScreen.storyboard */; };
 		E24A79AA1EF10CB90041ACE8 /* JYJOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A79A81EF10CB90041ACE8 /* JYJOneViewController.m */; };
-		E24A79AD1EF115B60041ACE8 /* JYJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A79AC1EF115B60041ACE8 /* JYJNavigationController.m */; };
 		E24A79B11EF119720041ACE8 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A79B01EF119720041ACE8 /* UIImage+Extension.m */; };
-		E2A29E431EF2551C00CAAC81 /* JYJBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E421EF2551C00CAAC81 /* JYJBaseNavigationController.m */; };
+		E2A29E431EF2551C00CAAC81 /* JYJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E421EF2551C00CAAC81 /* JYJNavigationController.m */; };
 		E2A29E531EF3992200CAAC81 /* JYJMyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E501EF3992200CAAC81 /* JYJMyWalletViewController.m */; };
 		E2A29E541EF3992200CAAC81 /* JYJPushBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E521EF3992200CAAC81 /* JYJPushBaseViewController.m */; };
 		E2A29E571EF3996B00CAAC81 /* JYJMyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A29E561EF3996B00CAAC81 /* JYJMyCardViewController.m */; };
@@ -43,12 +42,10 @@
 		E24A799F1EF10C430041ACE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E24A79A71EF10CB90041ACE8 /* JYJOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJOneViewController.h; sourceTree = "<group>"; };
 		E24A79A81EF10CB90041ACE8 /* JYJOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJOneViewController.m; sourceTree = "<group>"; };
-		E24A79AB1EF115B60041ACE8 /* JYJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJNavigationController.h; sourceTree = "<group>"; };
-		E24A79AC1EF115B60041ACE8 /* JYJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJNavigationController.m; sourceTree = "<group>"; };
 		E24A79AF1EF119720041ACE8 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		E24A79B01EF119720041ACE8 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
-		E2A29E411EF2551C00CAAC81 /* JYJBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJBaseNavigationController.h; sourceTree = "<group>"; };
-		E2A29E421EF2551C00CAAC81 /* JYJBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJBaseNavigationController.m; sourceTree = "<group>"; };
+		E2A29E411EF2551C00CAAC81 /* JYJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJNavigationController.h; sourceTree = "<group>"; };
+		E2A29E421EF2551C00CAAC81 /* JYJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJNavigationController.m; sourceTree = "<group>"; };
 		E2A29E4F1EF3992200CAAC81 /* JYJMyWalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJMyWalletViewController.h; sourceTree = "<group>"; };
 		E2A29E501EF3992200CAAC81 /* JYJMyWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJMyWalletViewController.m; sourceTree = "<group>"; };
 		E2A29E511EF3992200CAAC81 /* JYJPushBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJPushBaseViewController.h; sourceTree = "<group>"; };
@@ -111,10 +108,8 @@
 				E24A79921EF10C430041ACE8 /* AppDelegate.m */,
 				E24A79941EF10C430041ACE8 /* ViewController.h */,
 				E24A79951EF10C430041ACE8 /* ViewController.m */,
-				E2A29E411EF2551C00CAAC81 /* JYJBaseNavigationController.h */,
-				E2A29E421EF2551C00CAAC81 /* JYJBaseNavigationController.m */,
-				E24A79AB1EF115B60041ACE8 /* JYJNavigationController.h */,
-				E24A79AC1EF115B60041ACE8 /* JYJNavigationController.m */,
+				E2A29E411EF2551C00CAAC81 /* JYJNavigationController.h */,
+				E2A29E421EF2551C00CAAC81 /* JYJNavigationController.m */,
 				E2A29E651EF39EE600CAAC81 /* JYJAnimateViewController.h */,
 				E2A29E661EF39EE600CAAC81 /* JYJAnimateViewController.m */,
 				E24A79A71EF10CB90041ACE8 /* JYJOneViewController.h */,
@@ -292,8 +287,7 @@
 				E2A29E541EF3992200CAAC81 /* JYJPushBaseViewController.m in Sources */,
 				E2A29E711EF3A3DC00CAAC81 /* JYJCommenItem.m in Sources */,
 				E24A79B11EF119720041ACE8 /* UIImage+Extension.m in Sources */,
-				E2A29E431EF2551C00CAAC81 /* JYJBaseNavigationController.m in Sources */,
-				E24A79AD1EF115B60041ACE8 /* JYJNavigationController.m in Sources */,
+				E2A29E431EF2551C00CAAC81 /* JYJNavigationController.m in Sources */,
 				E2A29E531EF3992200CAAC81 /* JYJMyWalletViewController.m in Sources */,
 				E2A29E601EF399E800CAAC81 /* JYJMyStickerViewController.m in Sources */,
 				E24A79AA1EF10CB90041ACE8 /* JYJOneViewController.m in Sources */,

@@ -24,10 +24,7 @@ static CGFloat const animationTime = 0.4;
 
 @implementation JYJAnimateViewController
 
-// 控制状态栏
-- (BOOL)prefersStatusBarHidden {
-    return self.hideStatusBar;
-}
+
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
@@ -39,15 +36,6 @@ static CGFloat const animationTime = 0.4;
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    // 第一次进来，隐藏状态栏
-    if (!self.hasShow) {
-        self.hasShow = YES;
-        self.hideStatusBar = YES;
-        [UIView animateWithDuration:animationTime animations:^{
-            [self setNeedsStatusBarAppearanceUpdate];
-            self.rootViewController.navigationController.navigationBar.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 64);
-        }];
-    }
     [self.navigationController setNavigationBarHidden:YES animated:YES];
     [self showAnimation];
 }
@@ -72,13 +60,6 @@ static CGFloat const animationTime = 0.4;
         self.leftVc.view.frame = CGRectMake(-self.leftVc.view.frame.size.width, 0, self.leftVc.view.frame.size.width, [UIScreen mainScreen].bounds.size.height);
         self.bgView.alpha = 0.0;
     } completion:^(BOOL finished) {
-        // 让状态栏出现
-        self.hideStatusBar = NO;
-        if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0) {
-            [UIView animateWithDuration:animationTime animations:^{
-                [self setNeedsStatusBarAppearanceUpdate];
-            }];
-        }
         // 隐藏个人中心
         [JYJSliderMenuTool hide];
     }];
@@ -148,8 +129,6 @@ static CGFloat const animationTime = 0.4;
  */
 - (void)moveViewWithGesture:(UIPanGestureRecognizer *)panGes {
     // 下面是计算
-    // 开始位置
-    static CGFloat startX;
     // 结束位置
     static CGFloat lastX;
     // 改变多少
@@ -157,14 +136,15 @@ static CGFloat const animationTime = 0.4;
     CGPoint touchPoint = [panGes locationInView:[[UIApplication sharedApplication] keyWindow]];
     // 手势开始
     if (panGes.state == UIGestureRecognizerStateBegan) {
-        startX = touchPoint.x;
         lastX = touchPoint.x;
     }
     // 手势改变
     if (panGes.state == UIGestureRecognizerStateChanged) {
         CGFloat currentX = touchPoint.x;
+        // 改变的距离
         durationX = currentX - lastX;
         lastX = currentX;
+        // 左边控制器的frame
         CGFloat leftVcX = durationX + self.leftVc.view.frame.origin.x;
         // 如果控制器的x小于宽度直接返回
         if (leftVcX <= -self.leftVc.view.frame.size.width) {
