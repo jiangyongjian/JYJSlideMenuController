@@ -9,7 +9,6 @@
 #import "JYJAnimateViewController.h"
 #import "JYJPushBaseViewController.h"
 #import "JYJPersonViewController.h"
-#import "JYJSliderMenuTool.h"
 
 static CGFloat const animationTime = 0.4;
 
@@ -61,7 +60,7 @@ static CGFloat const animationTime = 0.4;
         self.bgView.alpha = 0.0;
     } completion:^(BOOL finished) {
         // 隐藏个人中心
-        [JYJSliderMenuTool hide];
+        [self removeFromParentViewController];
     }];
 }
 
