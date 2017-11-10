@@ -36,7 +36,6 @@ static CGFloat const animationTime = 0.4;
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
-    [self showAnimation];
 }
 
 - (void)showAnimation {
@@ -107,13 +106,13 @@ static CGFloat const animationTime = 0.4;
     [self.view addSubview:leftVc.view];
     [self addChildViewController:leftVc];
     self.leftVc = leftVc;
-    
+    // 展示
+    [self showAnimation];
     //    UIButton *btn1 =  [[UIButton alloc] init];
     //    btn1.backgroundColor = [UIColor greenColor];
     //    [btn1 addTarget:self action:@selector(btnclick) forControlEvents:UIControlEventTouchUpInside];
     //    btn1.frame = CGRectMake(50, 100, 100, 100);
     //    [leftVc.view addSubview:btn1];
-    
 }
 
 /**
